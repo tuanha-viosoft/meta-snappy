@@ -12,6 +12,7 @@ SRCREV = "74b190e1aa05f07da0c61fb9a30dbc9c18ce2c9d"
 
 SRC_URI = "git://github.com/seccomp/libseccomp.git;branch=release-2.3 \
            file://run-ptest \
+           file://riscv.patch \
 "
 
 S = "${WORKDIR}/git"
